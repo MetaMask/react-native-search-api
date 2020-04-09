@@ -222,7 +222,11 @@
 		F35C8FC81D19DABC00E97D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/Yoga"
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -233,7 +237,11 @@
 		F35C8FC91D19DABC00E97D91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/Yoga"
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
